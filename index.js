@@ -22,7 +22,7 @@ function currentLine(katzDeli) {
       line[i] = i + ". " + katzDeli[i]
     }
 
-    line.join(", ")
+    return "The line is currently: " + line.join(", ")
 
   } else {
     return "The line is currently empty."
