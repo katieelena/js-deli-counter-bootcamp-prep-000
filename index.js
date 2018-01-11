@@ -16,7 +16,6 @@ function nowServing(katzDeli) {
 function currentLine(katzDeli) {
 
   if (katzDeli.length > 0) {
-    return 'The line is currently: 1. Bill, 2. Jane, 3. Ann'
     //var line = katzDeli
 
     /*for (var i = 0; i < line.length; i++ ) {
